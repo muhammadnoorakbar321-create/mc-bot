@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main, master ]
   schedule:
-    - cron: '*/15 * * * *' # Har 15 minute baad workflow ko active rakhne ke liye
-  workflow_dispatch: # Manual start karne ka option
+    - cron: '*/15****'
+  workflow_dispatch:
 
 jobs:
   run-bot:
